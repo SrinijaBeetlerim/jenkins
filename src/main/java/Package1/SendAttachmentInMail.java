@@ -61,15 +61,15 @@ public class SendAttachmentInMail
 
          // Set To: header field of the header.
          message.setRecipients(Message.RecipientType.TO,
-            InternetAddress.parse("gopi.v@beetlerim.com"));
+            InternetAddress.parse("srinija.a@beetlerim.com"));
 
          // Set CC: header field of the header.
-         message.setRecipients(Message.RecipientType.CC,
-            InternetAddress.parse("srinija.a@beetlerim.com"));
+        // message.setRecipients(Message.RecipientType.CC,
+          //  InternetAddress.parse("srinija.a@beetlerim.com"));
          
          // Set CC: header field of the header.
-         message.setRecipients(Message.RecipientType.BCC,
-            InternetAddress.parse("sujana.t@beetlerim.com"));
+        // message.setRecipients(Message.RecipientType.BCC,
+          //  InternetAddress.parse("sujana.t@beetlerim.com"));
          
          // Set Subject: header field
          String subject = "Daily Marketing Report by Agent - "+agentName;
